@@ -1,0 +1,82 @@
+
+  
+  .paginationNumber {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  
+  .rowsPerPageSelect {
+    width: 70px;
+    height: 43px;
+  }
+  
+  /* Bootstrap CSS */
+  .container {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+  }
+  
+  .text-center {
+    text-align: center !important
+  }
+  
+  .currentPage {
+    color: black;
+    /* padding: 8px 18px; */
+    text-decoration: none;
+    /* border: 1px solid rgba(211, 211, 211, 0.466); */
+    list-style-type: none;
+    display: inline-block;
+    /* background-color: rgba(211, 211, 211, 0.466); */
+    /* margin-right: 0.5rem; */
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+  
+  .totalPage {
+    color: black;
+    padding: 8px 18px;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-right: 16px;
+  }
+  
+  .currentpage-totalpage {
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    height: 38px;
+    background: white;
+  }
+  
+  .currentpage-totalpage .page-span {
+    padding-left: 16px;
+  }
+
+  .customSpan{
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  
